@@ -185,19 +185,230 @@
 
 
 # 2. Employee Information System
-employee = {
-    "id": 101,
-    "name": "Anjali",
-    "department": "HR",
-    "salary": 45000
-}
+# employee = {
+#     "id": 101,
+#     "name": "Anjali",
+#     "department": "HR",
+#     "salary": 45000
+# }
 
-print("Employee salary:", employee["salary"])
+# print("Employee salary:", employee["salary"])
 
-employee["salary"] += 5000
-employee.update({"location": "Kochi"})
+# employee["salary"] += 5000
+# employee.update({"location": "Kochi"})
 
-employee.pop("department")
+# employee.pop("department")
 
-print("All employee keys:", list(employee.keys()))
-print("Updated employee details:", employee)
+# print("All employee keys:", list(employee.keys()))
+# print("Updated employee details:", employee)
+
+
+
+
+# 3. Mobile Product Details
+# mobile = {
+#     "brand": "Samsung",
+#     "model": "S24",
+#     "price": 75000,
+#     "storage": "256GB"
+# }
+
+# print("Mobile model:", mobile["model"])
+
+# mobile["price"] = 70000
+# mobile["color"] = "Black"
+
+# mobile.pop("storage")
+
+# print("Complete dictionary:", mobile)
+
+
+
+
+# 4. Movie Information Database
+# movie = {
+#     "title": "Leo",
+#     "hero": "Vijay",
+#     "rating": 8.5,
+#     "language": "Tamil"
+# }
+
+# print("Movie title:", movie["title"])
+
+# movie["rating"] = 9.1
+# movie["director"] = "Lokesh"
+
+# movie.pop("language")
+
+# print("All movie items:")
+# for key, value in movie.items():
+#     print(key, ":", value)
+
+
+
+
+# 5. Online Food Order Details
+# order = {
+#     "item": "Burger",
+#     "quantity": 2,
+#     "price": 250,
+#     "status": "Preparing"
+# }
+
+# print("Order item:", order["item"])
+
+# total_price = order["quantity"] * order["price"]
+# print("Total price:", total_price)
+
+# order["status"] = "Delivered"
+# order["payment"] = "Online"
+
+# order.pop("quantity")
+
+# print("Updated order:", order)
+
+
+
+
+# 6. Laptop Store Inventory
+# laptop = {
+#     "brand": "Dell",
+#     "ram": "16GB",
+#     "price": 65000,
+#     "processor": "i7"
+# }
+
+# print("RAM details:", laptop["ram"])
+
+# laptop["processor"] = "i9"
+# laptop["warranty"] = "2 Years"
+
+# laptop.pop("price")
+
+# print("Dictionary keys:", list(laptop.keys()))
+# print("Dictionary values:", list(laptop.values()))
+
+
+
+
+# 7. Hospital Patient Record
+# patient = {
+#     "name": "Arjun",
+#     "age": 32,
+#     "blood_group": "O+",
+#     "room": 205
+# }
+
+# print("Patient name:", patient["name"])
+
+# patient["room"] = 210
+# patient["doctor"] = "Dr. Meera"
+
+# patient.pop("age")
+
+# print("All patient details:")
+# for key, value in patient.items():
+#     print(key, ":", value)
+
+
+
+
+# 8. Amazon Product Tracking
+# product = {
+#     "product_name": "Headphones",
+#     "price": 2999,
+#     "rating": 4.4,
+#     "stock": 50
+# }
+
+# print("Product price:", product["price"])
+
+# product["stock"] = 40
+# product["brand"] = "Sony"
+
+# product.pop("rating")
+
+# print("All product keys and values:")
+# for key, value in product.items():
+#     print(key, ":", value)
+
+
+
+
+# Part 3
+
+# 1. Employee Bonus System
+# employee = {
+#     "name": "Akhil",
+#     "salary": 50000,
+#     "bonus": 10000
+# }
+
+# total_salary = employee["salary"] + employee["bonus"]
+# print("Total salary after bonus:", total_salary)
+
+# employee["department"] = "AI Team"
+
+# employee["salary"] += 5000
+
+# updated_total = employee["salary"] + employee["bonus"]
+# print("Updated salary after bonus:", updated_total)
+
+# print("Total salary greater than 60000:", updated_total > 60000)
+
+# print("Employee details:")
+# for key, value in employee.items():
+#     print(key, ":", value)
+
+
+
+
+# 2. Shopping Cart System
+# cart = {
+#     "item": "Keyboard",
+#     "price": 1500,
+#     "quantity": 3
+# }
+
+# total_amount = cart["price"] * cart["quantity"]
+# print("Total cart amount:", total_amount)
+
+# cart["delivery"] = 100
+
+# final_bill = total_amount + cart["delivery"]
+# print("Final bill amount:", final_bill)
+
+# print("Final bill greater than 5000:", final_bill > 5000)
+
+# print("Cart details:")
+# for key, value in cart.items():
+#     print(key, ":", value)
+
+
+
+
+# 3. Student Course Fee Management
+# student = {
+#     "name": "Diya",
+#     "course_fee": 45000,
+#     "paid": 20000
+# }
+
+# remaining_fee = student["course_fee"] - student["paid"]
+# print("Remaining fee:", remaining_fee)
+
+# student["course"] = "Python Full Stack"
+
+# student["paid"] = 30000
+
+# print("Updated paid amount:", student["paid"])
+
+# print("Paid amount equal to total fee:",
+#       student["paid"] == student["course_fee"])
+
+# remaining_fee = student["course_fee"] - student["paid"]
+# print("Updated remaining fee:", remaining_fee)
+
+# print("Student details:")
+# for key, value in student.items():
+#     print(key, ":", value)
